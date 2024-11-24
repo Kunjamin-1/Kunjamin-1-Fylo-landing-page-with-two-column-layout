@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    padding: 3rem 5.5rem 5rem;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar .nav-logo img {
+    height: 2.5rem;
+}
+
+.website-tools ul {
+    display: flex;
+    gap: 3rem;
+}
+
+
+.website-tools li {
+    list-style-type: none;
+}
+
+.website-tools a {
+    text-decoration: none;
+    color: #070439;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.website-tools a:hover {
+    color: #007BFF;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5.5rem;
+}
+
+.img img {
+    height: 26rem;
+}
+
+section {
+    font-family: "Raleway", sans-serif;
+}
+
+.start .start-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.5rem;
+}
+
+.start .start-text h1 {
+    font-size: 2.8rem;
+}
+
+.start .start-text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.start .start-text .email-id {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    height: 3.11rem;
+}
+
+.start .start-text .email-id input {
+    height: 100%;
+    padding: 0 15px;
+    width: 55%;
+    font-size: 1.02rem;
+}
+
+.start .start-text .email-id input::placeholder {
+    text-transform: capitalize;
+}
+
+.start .start-text .email-id .btn {
+    font-size: 1.15rem;
+    height: 100%;
+    font-weight: 600;
+    width: 15rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.section-img {
+    height: 7.1rem;
+    margin: 8rem 0 0 0;
+}
+
+.section-img .mobile {
+    display: none;
+}
+
+.section-img img {
+    width: -webkit-fill-available;
+}
+
+.main-content {
+    background-color: hsl(250, 75%, 98%);
+    padding: 4.5rem 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content .content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.main-content .content-text h2 {
+    font-size: 2.8rem;
+}
+
+.main-content .content-text .content-paragraph {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    gap: 1.12rem;
+}
+
+.main-content .content-text .content-paragraph p {
+    font-size: 1.15rem;
+}
+
+.main-content .content-text .fylo-link {
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+    font-size: 1.1rem;
+
+}
+
+.main-content .content-text .fylo-link a {
+    text-decoration: none;
+    color: #3C9F8F;
+}
+
+.main-content .content-text .fylo-link img {
+    height: 1.3rem;
+}
+
+.main-content .content-text .feedback-card {
+    background-color: white;
+    height: 16rem;
+    display: flex;
+    width: 28rem;
+    font-family: "Raleway";
+    padding: 2rem 2.2rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.9rem;
+    font-size: 1.05rem;
+    word-spacing: 4px;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.main-content .content-text .feedback-card .double-quote img {
+    height: 1.25rem;
+}
+
+.main-content .content-text .feedback-card .profile .avatar {
+    height: 2.45rem;
+    width: 2.45rem;
+    border-radius: 50%;
+}
+
+.main-content .content-text .feedback-card .profile .avatar img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.main-content .content-text .feedback-card .profile {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    line-height: normal;
+    font-size: 1rem;
+}
+
+.main-content .content-text .feedback-card .profile .avatar-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.18rem;
+    text-transform: capitalize;
+}
+
+.main-content .content-text .feedback-card .profile .avatar-name .name {
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.main-content .content-text .feedback-card .profile .avatar-name .profession {
+    font-size: small;
+}
+
+.signup {
+    padding: 6.5rem 5.5rem;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-text {
+    width: 60ch;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    word-spacing: 0.15rem;
+}
+
+.signup-text .signup-heading {
+    font-size: 2rem;
+}
+
+.signup .signup-discription {
+    font-size: 1.15rem;
+}
+
+.signup .signup-email {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+
+.signup .signup-email .signup-email-inputbox input {
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0 15px;
+    width: 100%;
+    font-size: 1.02rem;
+}
+
+.signup .signup-email .signup-button .btn {
+    font-size: 1.15rem;
+    height: 3rem;
+    font-weight: 600;
+    width: 15rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 4.5rem 5.5rem;
+    color: white;
+    font-family: "Open Sans";
+}
+
+.footer .footer-website-logo img {
+    margin: 2rem 0;
+}
+
+.footer .extra-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .extra-information .footer-contact-information {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    font-size: 1.15rem;
+}
+
+.footer .extra-information .footer-contact-information .footer-mobile-information,
+.footer-email-id {
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.extra-information .website-information {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 20rem;
+    font-size: 1.05rem;
+}
+
+.extra-information .website-information ul li {
+    list-style-type: none;
+    padding: 0 0 0.5rem 0;
+}
+.extra-information .website-information ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12rem;
+}
+
+.circle-border {
+    height: 2.8rem;
+    border-radius: 50%;
+    width: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.circle-border img {
+    height: 1.2rem;
+}
+
+@media only screen  and (max-width: 1024px) {
+    .start .start-text h1 {
+        font-size: 2rem;
+    }
+
+    .start .start-text p {
+        font-size: 1.1rem;
+    }
+
+    .img img {
+        height: 20rem;
+    }
+
+    .main-content .content-text .feedback-card {
+        height: 14rem;
+        display: flex;
+        width: 26rem;
+        font-size: 1.05rem;
+        word-spacing: 4px;
+    }
+
+    .main-content .content-text .content-paragraph {
+        display: flex;
+        flex-direction: column;
+        gap: 1.12rem;
+        width: 100%;
+    }
+
+    .section-img {
+        height: 5rem;
+        margin: 8rem 0 0 0;
+    }
+
+    .main-content .content-text h2 {
+        font-size: 2.6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar,
+    .start,
+    .main-content,
+    .signup,
+    .footer {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .start .start-text p {
+        font-size: 1.15rem;
+    }
+
+    .img img {
+        height: 15rem;
+    }
+
+    .start .start-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .start .start-text .email-id {
+        height: 7.12rem;
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .start .start-text .email-id input {
+        width: 100%;
+    }
+
+    .start .start-text .email-id .btn {
+        width: 100%;
+    }
+
+    .main-content .content-text h2 {
+        font-size: 2.3rem;
+    }
+
+    .main-content .content-text {
+        gap: 1.4rem;
+    }
+
+    .main-content .content-text .content-paragraph {
+        width: 100%;
+    }
+
+    .main-content .content-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-content .content-text .content-paragraph p {
+        font-size: 0.95rem;
+    }
+
+    .main-content .content-text .feedback-card .double-quote img {
+        height: 1.1rem;
+    }
+
+    .signup-text {
+        width: 38ch;
+    }
+
+    .section-img {
+        height: 3.1rem;
+        margin: 8rem 0 0 0;
+    }
+
+    .main-content .content-text .feedback-card {
+        height: 16rem;
+        width: 100%;
+        padding: 0 1rem;
+        font-size: 0.9rem;
+        gap: 0.6rem;
+    }
+
+    .main-content {
+        gap: 2rem;
+    }
+
+    .extra-information .website-information {
+        width: 14rem;
+    }
+
+    .signup-text .signup-heading {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .start,
+    .main-content,
+    .signup,
+    .footer .extra-information {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .img img {
+        height: 16rem;
+    }
+
+    .section-img image {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .extra-information .website-information {
+        width: 15rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navbar,
+    .start,
+    .main-content,
+    .signup,
+    .footer {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .start .start-text {
+        width: 100%;
+    }
+
+    .start .start-text .email-id {
+        height: 7.12rem;
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .start .start-text .email-id input {
+        width: 100%;
+    }
+
+    .main-content .content-text .content-paragraph {
+        width: 100%;
+
+    }
+
+    .start .start-text .email-id .btn {
+        width: 100%;
+    }
+
+    .signup-text {
+        width: 100%;
+    }
+
+    .signup .signup-email {
+        width: 100%;
+    }
+
+    .footer .extra-information,
+    .signup {
+        align-items: flex-start;
+    }
+
+    .social-media {
+        margin: auto;
+    }
+
+    .start .start-text {
+        width: 100%;
+        gap: 1.55rem;
+    }
+
+    .start .start-text h1 {
+        font-size: 2rem;
+    }
+
+    .main-content .content-text .feedback-card {
+        padding: 1rem 1.2rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .website-tools ul {
+        gap: 1rem;
+    }
+
+    .website-tools a {
+        font-size: 1.1rem;
+    }
+
+    .start .start-text p {
+        font-size: 1.2rem;
+    }
+
+    .section-img {
+        height: 2rem;
+    }
+
+    .signup .signup-email .signup-button .btn {
+        font-size: 1.1rem;
+        width: 14rem;
+    }
+
+    .main-content .content-text h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+    .website-tools ul {
+        gap: 1rem;
+    }
+
+    .website-tools a {
+        font-size: 1.05rem;
+    }
+
+    .navbar .nav-logo img {
+        height: 1.6rem;
+    }
+
+    .start .start-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .start .start-text p {
+        font-size: 1rem;
+    }
+
+    .section-img {
+        height: 1.8rem;
+    }
+
+    .main-content .content-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .main-content .content-text .content-paragraph p {
+        font-size: 1.05rem;
+    }
+
+    .main-content .content-text .feedback-card {
+        height: 16rem;
+        width: 22rem;
+        padding: 1.5rem 1.2rem;
+        font-size: 1rem;
+        word-spacing: 2px;
+    }
+
+    .signup-text .signup-heading {
+        font-size: 1.5rem;
+    }
+
+    .signup .signup-discription {
+        font-size: 1.05rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .website-tools a {
+        font-size: 1rem;
+    }
+
+    .navbar .nav-logo img {
+        height: 1.5rem;
+    }
+
+    .website-tools ul {
+        gap: 0.5rem;
+    }
+
+    .start .start-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .start .start-text p {
+        font-size: 1.1rem;
+    }
+
+    .img img {
+        height: 14rem;
+    }
+
+    .section-img {
+        height: 1.5rem;
+    }
+
+    .main-content .content-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-content .content-text .content-paragraph p {
+        font-size: 0.9rem;
+    }
+
+    .main-content .content-text .fylo-link {
+        font-size: 1rem;
+    }
+
+    .main-content .content-text .feedback-card {
+        height: 16rem;
+        width: 18rem;
+        padding: 0rem 1rem;
+        gap: 0.8rem;
+        font-size: 1rem;
+        word-spacing: 2px;
+    }
+
+    .signup-text .signup-heading {
+        font-size: 1.6rem;
+    }
+
+    .signup .signup-discription {
+        font-size: 1.08rem;
+    }
+
+    .signup .signup-email .signup-button .btn {
+        font-size: 1.05rem;
+        height: 3rem;
+        width: 12rem;
+    }
+}
